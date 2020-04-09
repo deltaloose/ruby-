@@ -1,0 +1,13 @@
+ifでも表示はされるけど１個の構文で納めるならelsif、else。
+
+apple = "Yamagata"
+ 
+if apple == "Nagano" #もしappleがNaganoなら
+    puts "りんごの生産地は長野です"
+elsif apple == "Yamagata" #それともappleがYamagataなら
+    puts "りんごの生産地は山形です"
+else #どちらも当てはまらない場合は
+    puts "りんごの生産地は青森です"
+end
+
+"それとも"と"どちらでもない場合"を意識。
